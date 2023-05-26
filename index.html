@@ -1,0 +1,36 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Vehículos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Formulario de Vehículos</h1>
+
+  <form id="formulario">
+    <label for="vehiculo">Vehículo:</label>
+    <input type="text" id="vehiculo" required>
+
+    <label for="marca">Marca:</label>
+    <input type="text" id="marca" required>
+
+    <label for="modelo">Modelo:</label>
+    <input type="text" id="modelo" required>
+
+    <button type="submit">Guardar</button>
+
+    <button id="mostrar">Mostrar vehiculo</button>
+
+    <button id="contar" onclick="contarVehiculos()">Contar</button>
+
+    <p id="contador"></p>
+
+
+  </form>
+
+ 
+
+  <script src="app.js"></script>
+</body>
+</html>
